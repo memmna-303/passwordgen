@@ -1,0 +1,89 @@
+:root{
+    --firstcolor:#05445E;
+    --secondcolor:#189AB4;
+    --thirdcolor:#75E6DA;
+    --fourthcolor:#D4F1F4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4F1F4;
+}
+.container form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 30px;
+}
+.container form .length{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.container form .length label{
+    color: #05445E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container form .length input{
+    padding: 20px;
+    outline: none;
+    border:#189AB4 solid 1px;
+    border-radius: 5px;
+    width: 150px;
+    max-width: 150px;
+    font-size: 20px;
+    color:#189AB4;
+
+}
+.checkesbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+}
+.checkesbox label{
+    font-size: 20px;
+    color: #05445E;
+    font-weight: bold;
+}
+button{
+    outline: none;
+    border: none;
+    background-color: #75E6DA;
+    color: #D4F1F4;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.password label{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.password input{
+    outline: none;
+    border:#75E6DA solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    max-width: 150px;
+}
